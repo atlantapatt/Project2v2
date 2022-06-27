@@ -1,0 +1,80 @@
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 1px;
+    background-color: #add8e6;
+    margin-top: 50px;
+    margin: 15px;
+    color: #ff7a35;
+}
+
+
+
+h1 {
+    padding-top: 25px;
+}
+
+.login-button {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 1px;
+    padding: 10px;
+    color: #a1a1a1;
+    font-weight: bold;
+    background: #add8e6;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: 1px 1px .5px black;
+    box-shadow: 2px 2px #a1a1a1
+}
+
+.duck {
+    width: 250px;
+}
+
+form {
+    max-width: 350px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    background: white;
+}
+
+.welcome {
+    background-color: #fffae6;
+}
+
+img {
+   display: block; 
+   max-width: 225px;
+   margin: 0 auto;
+}
+
+.inputs {
+    padding: 30px;
+    background: #f4e298;
+    text-align: center;
+    color: #333333;
+    
+   
+}
+
+.login-input {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: .5px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    background: white;
+    outline: none;
+    transition: border-color 0.5s;
+}
+
+.login-input:focus {
+    border-color: #ff7a35;
+}

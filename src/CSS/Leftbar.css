@@ -1,0 +1,23 @@
+.leftbar {
+    flex: 3;
+    height: calc(100vh -50px);
+}
+
+.sidebar-wrap {
+   padding: 20px;
+}
+
+.leftbar-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#leftbar-icon {
+    margin-right: 15px;
+}
