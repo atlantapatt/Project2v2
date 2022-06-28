@@ -28,10 +28,12 @@ function Feed() {
                     <span></span>
                     <img src={data.avatar} className="feed-img"></img>
                     <p className="feed-post">{data.post}</p>
-                    <div className="icon-likes">
-                    <p className="feed-likes">
-                        {heart === false ? <i class="fa-regular fa-heart" id="feed-heart" onClick={handleClick}></i> : <i class="fa-solid fa-heart" id="feed-heart" onClick={handleClick}></i>}{data.likes}
-                    </p>
+                    <div className="icon-interact">
+                    <div>
+                        <p className="feed-likes">
+                            {heart === false ? <i class="fa-regular fa-heart" id="feed-heart" onClick={handleClick}></i> : <i class="fa-solid fa-heart" id="feed-heart" onClick={handleClick}></i>}{data.likes}
+                        </p>
+                    </div>
                     </div>
                     </div>
                 ))}
