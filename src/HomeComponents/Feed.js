@@ -11,15 +11,18 @@ function Feed({postData, search}) {
 
     console.log(postData)
 
-    // const filteredUsers = postData.filter(user => {
-    //     return user.username.toLowerCase().includes(search.toLowerCase())
-    // })
+    const filteredData = postData.filter(user => {
+            return [user.username].toString().toLowerCase().includes(search.toLowerCase())
+        
+    })
+
+ console.log(filteredData)
     
 
     return ( 
         <div className="feed">
         <div className="feed-wrap">
-            {postData.map((data) => (
+            {filteredData.map((data) => (
                 <div className="user-post">
                 <h4 className="feed-username">{data.username}</h4>
                 <p className="feed-followers">{data.followers} followers</p>
