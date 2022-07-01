@@ -1,4 +1,5 @@
-import "/home/atlantapatt/Development/code/phase-2/project/src/CSS/Rightbar.css"
+import "/home/atlantapatt/Development/code/phase-2/projectv2/src/CSS/Rightbar.css"
+
 function Rightbar({postData}) {
     const onlineData = postData.filter(user => {
         if (user.online === true) {

@@ -1,4 +1,6 @@
-import "/home/atlantapatt/Development/code/phase-2/project/src/CSS/Navbar.css"
+import React from "react";
+import "/home/atlantapatt/Development/code/phase-2/projectv2/src/CSS/Navbar.css"
+
 function Navbar({setSearch, setPost}) {
     return ( 
         <div className="navbar-container">

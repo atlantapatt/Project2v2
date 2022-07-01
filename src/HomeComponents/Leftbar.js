@@ -1,4 +1,6 @@
-import "/home/atlantapatt/Development/code/phase-2/project/src/CSS/Leftbar.css"
+import { Redirect } from "react-router-dom";
+import "/home/atlantapatt/Development/code/phase-2/projectv2/src/CSS/Leftbar.css"
+
 function Leftbar({postData, setPost}) {
     return ( 
         <div className="leftbar">
