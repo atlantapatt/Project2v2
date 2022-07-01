@@ -11,7 +11,7 @@ function Login({setIsLoggedIn, loginData, setLoginData}) {
         
         e.preventDefault()
         setIsLoggedIn(true)
-        history.push("/")
+        history.push("/home")
         console.log("loggedin")
     }
 
