@@ -1,39 +1,76 @@
 {
-    "users": [
-        {
-        "username": "JohnnySmith",
-        "avatar":"https://xsgames.co/randomusers/avatar.php?g=male",
-        "post":"i feel like twitter beef would be the LAST thing i'd wanna do",
-        "followers":"21,301",
-        "likes": 3923
-        },
-         {
-        "username": "GameofThronesLover1249",
-        "avatar":"https://xsgames.co/randomusers/avatar.php?g=pixel",
-        "post": "attention everyone: being emo is valid",
-        "followers":"7",
-        "likes": 1
-        },
-         {
-        "username":"DBZ4eva",
-        "avatar":"https://xsgames.co/randomusers/avatar.php?g=pixel",
-        "post":"you're wrong if u think the existence of aliens is iconic",
-        "followers":"21",
-        "likes": 17
-        },
-         {
-        "username": "CardiBStan",
-        "avatar":"https://xsgames.co/randomusers/avatar.php?g=female",
-        "post": "wake up america, u gotta realize cardi b is millennial culture!",
-        "followers":"2031",
-        "likes": 209
-        },
-         {
-        "username": "KimberlyKashian",
-        "avatar":"https://xsgames.co/randomusers/avatar.php?g=female",
-        "post":"sometimes a gucci belt makes me cringe",
-        "followers":"8,002,390",
-        "likes": 28378
-        }
-    ]
+  "users": [
+    {
+     "id": 1,
+      "username": "JohnnySmith",
+      "avatar": "https://xsgames.co/randomusers/avatar.php?g=male",
+      "post": "i feel like twitter beef would be the LAST thing i'd wanna do",
+      "followers": "21,301",
+      "likes": 3923,
+      "online": true
+    },
+    {
+        "id": 2,
+      "username": "GameofThronesLover149",
+      "avatar": "https://xsgames.co/randomusers/avatar.php?g=pixel",
+      "post": "attention everyone: being emo is valid",
+      "followers": "7",
+      "likes": 1,
+      "online": false
+    },
+    {
+        "id": 3,
+      "username": "DBZ4eva",
+      "avatar": "https://xsgames.co/randomusers/assets/avatars/pixel/22.jpg",
+      "post": "you're wrong if u think the existence of aliens is iconic",
+      "followers": "21",
+      "likes": 17,
+      "online": true
+    },
+    {
+        "id": 4,
+      "username": "CardiBStan",
+      "avatar": "https://xsgames.co/randomusers/assets/avatars/female/12.jpg",
+      "post": "wake up america, u gotta realize cardi b is millennial culture!",
+      "followers": "2,031",
+      "likes": 209,
+      "online": false
+    },
+    {
+        "id": 5,
+      "username": "KimberlyKashian",
+      "avatar": "https://xsgames.co/randomusers/assets/avatars/female/34.jpg",
+      "post": "sometimes a gucci belt makes me cringe",
+      "followers": "8,002,390",
+      "likes": 28378,
+      "online": false
+    },
+    {
+        "id": 6,
+      "username": "chip_flick92",
+      "avatar": "https://xsgames.co/randomusers/assets/avatars/pixel/37.jpg",
+      "post": "i always daydream about how taylor swift will save the economy",
+      "followers": "48",
+      "likes": 23,
+      "online": true
+    },
+    {
+        "id": 7,
+      "username": "<3 Vivian <3",
+      "avatar": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg",
+      "post": "the bee movie (2007) is the american dream",
+      "followers": "89",
+      "likes": 52,
+      "online": true
+    },
+    {
+        "id": 8,
+      "username": "Thomas_J_Bradly",
+      "avatar": "https://xsgames.co/randomusers/assets/avatars/male/38.jpg",
+      "post": "honestly vine makes me nostalgic",
+      "followers": "484",
+      "likes": 152,
+      "online": true
+    }
+  ]
 }
