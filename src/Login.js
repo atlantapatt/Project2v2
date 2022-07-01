@@ -2,12 +2,9 @@ import React, { useState } from "react";
 import "../src/CSS/Login.css"
 import {useHistory, withRouter} from "react-router-dom"
 
-function Login({setIsLoggedIn}) {
+function Login({setIsLoggedIn, loginData, setLoginData}) {
     const history = useHistory()
-    const [loginData, setLoginData] = useState({
-        username: "",
-        password: "",
-    })
+    
 
     
     function handleSubmit(e) {
@@ -24,6 +21,7 @@ function Login({setIsLoggedIn}) {
             [e.target.name]: e.target.value
         })
     }
+    
 
     return (
         <form onSubmit={handleSubmit}
