@@ -1,7 +1,14 @@
+import { Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { Redirect } from "react-router-dom";
 import "/home/atlantapatt/Development/code/phase-2/projectv2/src/CSS/Leftbar.css"
 
 function Leftbar({postData, setPost}) {
+    let history = useHistory()
+    function routeChange() {
+        let path = "/"
+        history.push(path)
+    }
     return ( 
         <div className="leftbar">
             <div className="sidebar-wrap">
@@ -29,6 +36,10 @@ function Leftbar({postData, setPost}) {
                     <li className="list-item">
                     <i class="fa-solid fa-house-user" id="leftbar-icon"></i>
                     <span className="leftbar-Home-span">Home</span>
+                    </li>
+                    <li className="list-item">
+                    <i class="fa-solid fa-right-from-bracket" id="leftbar-icon" onClick={routeChange}></i>
+                    <span className="leftbar-Logout-span">Log Out</span>
                     </li>
                     <hr></hr>
                     <li className="friends-list">
