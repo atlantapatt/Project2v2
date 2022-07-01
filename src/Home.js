@@ -8,18 +8,10 @@ import Rightbar from "./HomeComonents/Rightbar";
 import "/home/atlantapatt/Development/code/phase-2/projectv2/src/CSS/Home.css"
 
 function Home({isLoggedIn, loginData, setLoginData}) {
-    const startValue = []
     const [post, setPost] = useState(false)
     const [search, setSearch] = useState("")
     const [postData, setPostData] = useState([]);
     console.log(postData)
-    // useEffect (() => {
-    //    fetch('http://localhost:3000/users')
-    //     .then((r) => r.json())
-    //     .then((data) => {
-    //         console.log(data)
-    //     })
-    // },[])
 
  useEffect(() => {
     fetch("http://localhost:3000/users")
@@ -32,7 +24,7 @@ function Home({isLoggedIn, loginData, setLoginData}) {
     }
     console.log(postData)
 
-if (isLoggedIn === false) return <Redirect to="/login" />
+// if (isLoggedIn === false) return <Redirect to="/login" />
 
     return(
         <div>
