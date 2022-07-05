@@ -1,0 +1,55 @@
+.user-wrap {
+}
+
+.user-top{
+    margin-left: 9px;
+    flex: 3;
+    width: 25%;
+    text-align: center;
+    position: absolute;
+    background-color: #76aac2;
+    color: #4E4E56;
+    text-shadow: 1px 1px 1px #CE5937;
+    -webkit-box-shadow: 8px 0px 0px 0px #DCD0C0, -8px 0px 0px 0px #4E4E56, 0px 0px 0px 8px rgba(255,122,53,0), 0px 0px 0px 8px #FF7A35, 0px 8px 0px 0px #E1B7A1, 0px 8px 0px 0px #E1B7A1; 
+box-shadow: 8px 0px 0px 0px #DCD0C0, -8px 0px 0px 0px #4E4E56, 0px 0px 0px 8px rgba(255,122,53,0), 0px 0px 0px 8px #FF7A35, 0px 8px 0px 0px #E1B7A1, 0px 8px 0px 0px #E1B7A1
+}
+hr {
+    border-top: 1px solid #8c8b8b;
+    background-color: #8c8b8b;
+    margin-right: 5px;
+}
+
+.user-img{
+    padding-top: 10px;
+    border-radius: 50%;
+    height: 30%;
+    width: 70%;
+}
+.socials-list{
+    list-style: none;
+}
+#socials-icon{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.socials{
+    text-align: left;
+    margin-bottom: 15px;
+}
+.socials-title{
+    text-align: center;
+}
+
+.user-photos{
+    margin-left: 30%;
+
+}
+.image-text{
+    text-align: center;
+}
+.image-div{
+    -webkit-box-shadow: 3px 3px 13px 2px #000000; 
+    box-shadow: 3px 3px 13px 2px #000000;
+    background-color: white;
+    padding-top: 15px;
+}
