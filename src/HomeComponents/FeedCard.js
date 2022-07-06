@@ -2,11 +2,17 @@ import { useState } from "react";
 
 function Feedcard({data}) {
     const [heart, setHeart] = useState(false)
-    function handleClick(e) {
+    function handleFullClick(e) {
          e.preventDefault()
-         setHeart((prevState) => !prevState)
-         
+         setHeart((heart) => !heart)
     }
+
+    function handleEmptyClick(e) {
+        e.preventDefault()
+        setHeart((heart) => !heart)
+    }
+    console.log(heart)
+    console.log(parseInt(data.likes++))
     return ( 
         <div className="feed-wrap">
                     <div className="user-post">
@@ -19,9 +25,9 @@ function Feedcard({data}) {
                     <div>
                         <p className="feed-likes">
                         {heart === true ? 
-                        (<i class="fa-solid fa-heart" id="feed-heart" onClick={handleClick}></i> 
+                        (<i class="fa-solid fa-heart" id="feed-heart" onClick={handleFullClick}></i>
                         ): (
-                        <i class="fa-regular fa-heart" id="feed-heart" onClick={handleClick}></i>)}
+                        <i class="fa-regular fa-heart" id="feed-heart" onClick={handleEmptyClick}></i>)}
                         {data.likes}
                         </p>
                     </div>
