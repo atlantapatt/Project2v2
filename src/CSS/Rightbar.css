@@ -1,5 +1,10 @@
 .rightbar {
     flex: 3;
+    
+}
+.rightbar-wrap{
+    border: 3px solid #4E4E56;
+
 }
 
 .online-image{
