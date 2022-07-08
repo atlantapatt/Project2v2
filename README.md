@@ -30,3 +30,8 @@ At this moment, you can only post to the feed. You can travel between the login 
 
 
 ## Built With
+* React
+* Javascript
+* CSS
+* [Lorem Picsm](https://picsum.photos/)
+* [Random Users](https://xsgames.co/randomusers/)
