@@ -42,7 +42,7 @@ function Login({setIsLoggedIn, loginData, setLoginData}) {
                 />
                 <input 
                 className="login-input"
-                type="text"
+                type="password"
                 name="password"
                 placeholder="password"
                 value={loginData.password}
