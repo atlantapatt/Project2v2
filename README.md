@@ -15,8 +15,10 @@ At this moment, you can only post to the feed. You can travel between the login 
 ![Quacker-Feed](https://user-images.githubusercontent.com/99867479/177896740-d5d135e8-c784-4a72-8497-c66d0b0c6132.gif)
 
 3. You can search for a specific user's post by using the search bar to search their username.
+![Quacker-search](https://user-images.githubusercontent.com/99867479/177931613-60f82ca7-7470-4b23-a742-7069e418318f.gif)
 
 4. By clicking the photo in the top right corner, you can travel to the userpage. On the userpage is a API of random photos as well as filler text to represent userposts. To travel back to the homepage, press the 'Quacker' logo in the top left corner.
+![Quacker-userpage (2)](https://user-images.githubusercontent.com/99867479/177931643-8574c84b-8eb8-48c9-80aa-1ade01d27b0e.gif)
 
 
 5. You can also post to the feed by clicking 'post' in the topbar. After typing your text, you can then click the 'post' button to post your message. It will appear at the bottom of the feed.
